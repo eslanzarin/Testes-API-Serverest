@@ -1,0 +1,44 @@
+{
+    "user_valido":{
+        "nome": "Michael Scott",
+        "email": "manager@dunder.com.br",
+        "password": "teste",
+        "administrador": "true"
+    },
+    "user_invalido":{
+        "nome": "Dwight Schrute",
+        "email": "manager@dunder.com.br",
+        "password": "teste",
+        "administrador": "true"
+    },
+    "user_sem_senha":{
+        "nome": "Jim Halpert",
+        "email": "jim@dunder.com.br",
+        "password": "",
+        "administrador": "true"
+    },
+    "user_sem_email":{
+        "nome": "Meredith Palmer",
+        "email": "",
+        "password": "teste",
+        "administrador": "true"
+    },
+    "user_sem_adm":{
+        "nome": "Pam Beesley",
+        "email": "pam@dunder.com.br",
+        "password": "teste",
+        "administrador": ""
+    },
+    "user_sem_nome":{
+        "nome": "",
+        "email": "creed@dunder.com.br",
+        "password": "teste",
+        "administrador": "false"
+    },
+    "user_adm_false":{
+        "nome": "Andy Bernard",
+        "email": "narddog@dunder.com.br",
+        "password": "teste",
+        "administrador": "false"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "token_expirado":{
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNjU5MDEyMTUyLCJleHAiOjE2NTkwMTI3NTJ9.jzIQL3vItt3-j9VpB74toEYIfznhguY_Kt0ab4IlHQQ"
+    },
+    "token_usuario_inexistente":{
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNTg5NzU4NzQ2LCJleHAiOjE1ODk3Njg3NDZ9.B6TASHV8k9xBerz4NSeFBlAZGSDhZlqESt767M0567I"
+    },
+    "token_ausente":{
+        "Authorization": ""
+    },
+    "token_invalido":{
+        "Authorization": "Bearer euS0UuMT0k3nnnnnnnnnnnnnn"
+    }
+}

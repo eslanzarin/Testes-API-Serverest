@@ -1,0 +1,14 @@
+{
+    "user_inexistente":{
+        "email": "ines@istente.com",
+        "password": "ines"
+    },
+    "user_sem_email":{
+        "email": "",
+        "password": "sememail"
+    },
+    "user_sem_senha":{
+        "email": "user_sem@senha.com",
+        "password": ""
+    }
+}

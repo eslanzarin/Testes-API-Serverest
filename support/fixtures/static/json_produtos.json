@@ -1,0 +1,50 @@
+{
+    "produto_valido":{
+        "nome": "New Printer",
+        "preco": 444,
+        "descricao": "Printer",
+        "quantidade": 554
+    },
+    "produto_sem_nome":{
+        "nome": "",
+        "preco": 444,
+        "descricao": "Printer",
+        "quantidade": 554
+    },    
+    "produto_sem_preco":{
+        "nome": "SemPreco",
+        "preco": "",
+        "descricao": "Printer",
+        "quantidade": 554
+    },
+    "produto_sem_descricao":{
+        "nome": "SeDescricao",
+        "preco": 999,
+        "descricao": "",
+        "quantidade": 554
+    },
+    "produto_sem_quantidade":{
+        "nome": "SemQuantidade",
+        "preco": 777,
+        "descricao": "Printer",
+        "quantidade": ""
+    },
+    "produto_quantidade_insuficiente":{
+        "nome": "Gatos",
+        "preco": 444,
+        "descricao": "Alguns gatos fofinhos",
+        "quantidade": 2
+    },
+    "produto_preco_zero":{
+        "nome": "DEGRACA",
+        "preco": 0,
+        "descricao": "Printer",
+        "quantidade": 554
+    },
+    "produto_quantidade_zero":{
+        "nome": "SEMESTOQUE",
+        "preco": 222,
+        "descricao": "Printer",
+        "quantidade": 0
+    }
+}
