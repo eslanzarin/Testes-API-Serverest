@@ -45,7 +45,7 @@ ENDPOINT /CARRINHOS
 
 ----
 
-### **Requirements**
+### **Requirements:**
 - Python versão 3.10.5 ou anteriores
 
 - Pip 22.1.2
