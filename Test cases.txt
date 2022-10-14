@@ -1,0 +1,145 @@
+Cenário 1: POST Efetuar Login Usuario Valido 200
+
+Cenário 2: POST Efetuar Login Senha Incorreta 400
+
+Cenário 3: POST Efetuar Login Usuario Inexistente 400
+
+Cenário 4: POST Efetuar Login Email em Branco 400
+
+Cenário 5: POST Efetuar Login Senha em Branco 400
+
+Cenário 6: GET Todos os Usuários 200
+
+Cenário 7: GET Buscar usuário por Id 200
+
+Cenário 8: GET Buscar Usuário Id Incorreto 400
+
+Cenário 9: POST Cadastrar Usuário 201
+
+Cenário 10: POST Cadastrar Usuário Email Já Utilizado 400
+
+Cenário 11: POST Cadastrar Usuario sem Email 400
+
+Cenário 12: POST Cadastrar Usuário sem Senha 400
+
+Cenário 13: POST Cadastrar Usuário sem Nome 400
+
+Cenário 14: POST Cadastrar Usuário sem Administrador 400
+
+Cenário 15: POST Cadastrar Usuário Administrador False 200
+
+Cenário 16: PUT Editar Usuário 200
+    
+Cenário 17: PUT Editar Novo Usuário 201
+
+Cenário 18: PUT Editar Usuário Email Repetido 400
+
+Cenário 19: DELETE Deletar Usuário 200
+
+Cenário 20: DELETE Deletar Usuário com Id Inexistente 200
+
+Cenário 21: DELETE Deletar Usuário com Carrinho 400
+
+Cenário 22: GET Todos os Produtos 200
+
+Cenário 23: GET Buscar produto por Id 200
+
+Cenário 24: GET Buscar Produto Id Incorreto 400
+
+Cenário 25: POST Criar Produto 201
+
+Cenário 26: POST Criar Produto Nome Repetido 400
+
+Cenário 27: POST Produto sem Preço 400
+
+Cenário 28: POST Produto sem Descrição 400
+
+Cenário 29: POST Produto sem Quantidade 400
+
+Cenário 30: POST Produto sem Nome 400
+
+Cenário 31: POST Produto Preço Zero 400
+
+Cenário 32: POST Produto Quantidade Zero 400
+
+Cenário 33: POST Criar Produto Token Expirado 401
+
+Cenário 34: POST Criar Produto Token Usuario Inexistente 401
+
+Cenário 35: POST Criar Produto Token Invalido 401
+
+Cenário 36: POST Criar Produto Token Ausente 401
+
+Cenário 37: POST Criar Produto Administrador False 403
+
+Cenário 38: PUT Editar Produto 200
+
+Cenário 39: PUT Editar Novo Produto 201
+
+Cenário 40: PUT Editar Produto Mesmo Nome 400
+
+Cenário 41: PUT Editar Produto Token Expirado 401
+
+Cenário 42: PUT Editar Produto Token Usuario Inexistente 401
+
+Cenário 43: PUT Editar Produto Token Ausente 401
+
+Cenário 44: PUT Editar Produto Token Invalido 401
+
+Cenário 45: PUT Editar Produto Administrador False 403
+
+Cenário 46: DELETE Excluir Produto 200
+
+Cenário 47: DELETE Excluir Produto Token Invalido 401
+
+Cenário 48: DELETE Excluir Produto Token Expirado 401
+
+Cenário 49: DELETE Excluir Produto Token Ausente 401
+
+Cenário 50: DELETE Excluir Produto Token Usuario Inexistente 401
+
+Cenário 51: DELETE Excluir Produto Administrador False 403
+
+Cenário 52: DELETE Excluir Produto em Carrinho 400
+
+Cenário 53: GET Listar Carrinhos 200
+
+Cenário 54: GET Buscar Carrinho por Id 200
+
+Cenário 55: GET Buscar carrinho por ID inválido 400
+
+Cenário 56: POST Criar Carrinho 201
+
+Cenário 57: POST Cadastrar Novo Carrinho Usuario Já com Carrinho 400
+
+Cenário 58: POST Cadastrar Produto em Quantidade Insuficiente em Carrinho 400
+
+#Cenário: POST Cadastrar Novo Carrinho com Produto Duplicado 400
+
+Cenário 59: POST Cadastrar Novo Carrinho com Token Expirado 401
+
+Cenário 60: POST Cadastrar Novo Carrinho com Token Ausente 401
+
+Cenário 61: POST Cadastrar Novo Carrinho com Usuario Inexistente 401
+
+Cenário 62: POST Cadastrar Novo Carrinho com Token Invalido 401
+
+Cenário 63: DELETE Concluir Compra 200
+
+Cenário 64: DELETE /concluir-compra Concluir Carrinho com Token Expirado 401
+
+Cenário 65: DELETE /concluir-compra Concluir Carrinho com Token Usuario Inexistente 401
+
+Cenário 66: DELETE /concluir-compra Concluir Carrinho com Token Ausente 401
+
+Cenário 67: DELETE /concluir-compra Concluir Carrinho com Token Invalido 401
+
+Cenário 68: DELETE Cancelar Compra com Sucesso 200
+
+Cenário 69: DELETE /cancelar-compra Cancelar Carrinho com Token Expirado 401
+
+Cenário 70: DELETE /cancelar-compra Cancelar Carrinho com Token Usuario Inexistente 401
+
+Cenário 71: DELETE /cancelar-compra Cancelar Carrinho com Token Ausente 401
+
+Cenário 72: DELETE /cancelar-compra Cancelar Carrinho com Token Invalido 401
